@@ -5,7 +5,6 @@
 /*==============Menus Start============================ */
 .navbar{
     padding: 22px 0px;
-    background-color:#34495e ! important; 
     border-bottom: none ! important;
 }
 
@@ -33,6 +32,9 @@
     border-color:transparent !important;
 }
 
+.navbar-inverse{
+    background-color: transparent !important;
+}
 /*================== Menus Ends ====================*/
 
 
@@ -42,6 +44,95 @@
     border-radius: 50px;
 }
 
-
 /*================== Navigation Ends ====================*/
 
+/*================== Slider Starts ====================*/
+
+.slider{
+    width: 100%;
+    height: 700px;
+    background-image: url(..//img/slider.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffff
+}
+
+.slider-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.65);
+    position: relative;
+}
+
+.slider-content{
+    position: absolute;
+    top: 39%;
+    width: 100%
+}
+
+.icons .fa{
+    font-size: 35px;
+    margin-right: 7px;
+}
+
+.btn1{
+    padding: 10px 18px;
+    background-color: transparent;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid #ffff;
+    border-top-left-radius: 15px;
+    transition: all 0.5s ease-in;
+    margin-right: -6px;
+    
+}
+
+.btn1:hover{
+    text-decoration: none;
+    color: #ffff;
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+}
+
+
+.btn2{
+    padding: 10px 18px;
+    background-color: transparent;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid #ffff;
+    border-bottom-right-radius: 15px;
+    transition: all 0.5s ease-in;
+    
+}
+
+.btn2:hover{
+    text-decoration: none;
+    color: #ffff;
+    background-color: orangered;
+    border-color: orangered;
+}
+
+.social-networks a.fa{
+    border: 1px solid #ffff;
+    padding: 10px;
+    color: #ffff;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin-right: 2px;
+    transition: all 0.5s ease-in;
+}
+
+.social-networks a.fa:hover{
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: #ffff;
+    border: 1px solid deepskyblue;
+}
+
+/*================== Slider Ends====================*/
