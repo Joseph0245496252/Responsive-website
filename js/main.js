@@ -14,4 +14,6 @@
           typespeed: 0,
           loop: true
       });
+      
+              
  });
