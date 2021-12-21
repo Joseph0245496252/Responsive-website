@@ -49,5 +49,5 @@
         time: 4000
     });
 
-    $('a').smoothScroll();
+    $('a.smooth-scroll').smoothScroll();
  });
