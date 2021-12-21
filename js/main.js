@@ -48,4 +48,6 @@
         delay: 10,
         time: 4000
     });
+
+    $('a').smoothScroll();
  });
