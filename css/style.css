@@ -687,7 +687,7 @@ h4.team-member-desgination{
 
 /*==================Counter Stat Sytle Starts====================*/ 
 .stat{
-    background-image: url(../img/cover-bg-1.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)),url(..//img/cover-bg-1.jpg);
     background-position: center;
     padding-top: 180px;
     padding-bottom: 200px;
@@ -711,6 +711,55 @@ h4.team-member-desgination{
     letter-spacing: 1px;
 }
 
-
-
 /*==================Counter Stat Sytle Ends====================*/ 
+
+
+
+/*================== Form Style Starts====================*/ 
+.contact-area{
+    margin-top: 60px;
+}
+
+.form-control{
+    border-radius: 0px !important;
+    border: 1px solid #34495e !important;
+}
+
+.contact-form button.btn{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 12px 43px;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+
+.border-bottom{
+    width: 40px;
+    height: 2px;
+    background-color: black;
+}
+
+.contact-infos{
+    float: left;
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    background-color: darkcyan;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.contact-infos .fa{
+    color: #fff;
+    font-size: 26px;
+    border: 1px solid white;
+    width: 50px;
+    border-radius: 50px;
+    line-height: 50px;
+}
+
+.contact-infos p{
+    color: #fff;
+    margin-top: 15px;
+}
+/*================== Form Style Ends====================*/ 
