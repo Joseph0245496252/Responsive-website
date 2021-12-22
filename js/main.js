@@ -60,5 +60,7 @@
       }, 1250, "easeInOutExpo");
   });
 
+    new WOW().init();
+
 
  });
